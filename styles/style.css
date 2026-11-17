@@ -159,7 +159,7 @@ color: #5F6F85 ;
 }
 .fris:hover , .second:hover , .three:hover{
      box-shadow: 0px 8px 24px 0px #12233F14;
-     transition: translateY(-10px);
+   transform: translateY(-8px); 
      
 }
 .today span{
@@ -248,7 +248,7 @@ font-size: 16px;
 }
 .This-week div:hover{
 box-shadow: 20px 20px 24px 20px #12233F14; 
-  transition: translateY(-10px);  
+  transform: translateY(-8px);  
 }
 footer{
 background-color: #12233F;
