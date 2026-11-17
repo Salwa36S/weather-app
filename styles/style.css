@@ -82,7 +82,7 @@ width: auto;
 padding: 5px;
 font-size: 10px;
 position: absolute;
-content: "Updated 10:30";
+content: "";
 color: white;
 background-color: #1157AA;
 }
@@ -244,6 +244,9 @@ font-size: 16px;
 .This-week p:nth-of-type(3){
     color:#5F6F85;
     font-size: 10px;
+}
+.This-week div:hover{
+box-shadow: 20px 20px 24px 20px #12233F14;   
 }
 footer{
 background-color: #12233F;
