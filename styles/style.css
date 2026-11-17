@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: 'Inter',sans-serif;
+    background-color:#EDF6FC;
+}
+.header{
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    flex-wrap: nowrap;
+    column-gap: 10px;
+    
+}
+.logo{
+    font-size: 16px;
+    font-weight: 700;
+    flex-wrap: nowrap;
+}
+.logo span::before{
+    content: '☀';
+    margin-right: 14px;
+    background-color: #EDF6FC;
+    border-radius: 50%;
+}
+form{
+    flex: 1;
+}
+.header input{
+    width: 70%;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #D7E4EE;
+  
+}
+.header input:focus{
+    outline:1px solid #176BCE;
+}
+.header input:focus::placeholder{
+    color: transparent;
+}
+form button{
+width: 10%;
+height: 35px;
+background-color:#176BCE ;
+border-radius: 20px;
+border:1px solid #176BCE;
+color:white;
+cursor: pointer;
+
+}
+form button:hover{
+    background-color:#1157AA ;
+}
+nav a{
+    font-size: 12px;
+    color: #5F6F85;
+    text-decoration: none;
+}
+a:nth-of-type(1){
+    color:#176BCE;
+    margin-right:12px;
+}
+.curent-weather{
+    padding:40px;
+    background-color: white;
+    margin: 60px;
+    box-shadow: 0px 8px 24px 0px #12233F14;
+    border: 1px solid #D7E4EE;
+    height: 300px;
+   
+
+}
+main{
+    position: relative;
+}
+main .update::after{
+top: -17px;
+left:1088px ;
+border-radius: 10px;
+width: auto;
+padding: 5px;
+font-size: 10px;
+position: absolute;
+content: "Updated 10:30";
+color: white;
+background-color: #1157AA;
+}
+.curtop{
+    display: flex;
+    justify-content: space-between;
+}
+.fiside p{
+    font-size: 12px;
+    font-weight: bold;
+    color:#176BCE;
+    text-transform:uppercase;
+    margin-bottom: 6px;
+}
+.fiside span{
+    font-size: 20px;
+}
+.fiside small{
+    display: block;
+    color: #5F6F85;
+     margin-top: 20px;
+
+}
+.weather-img{
+    font-size: 64px;
+}
+.leftsid p{
+    margin-top: 24;
+    font-size: 96px;
+    font-weight: bold;
+}
+.leftsid span{
+    font-size: 18px;
+   
+}
+.rightsid p{
+font-size: 16px;
+}
+.curbutt{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid  #c4ddff;
+}
+.rightsid{
+    align-self: center;
+}
+.rightsid small{
+font-size: 12px;
+color: #5F6F85 ;
+}
+.section{
+     padding:20px 40px 20px;
+}
+.today{
+    
+    display: flex;
+    justify-content:space-between;
+    height: auto;
+    
+    
+}
+.fris,.second , .three{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 99px;
+    width: 260px;
+    background-color: white;
+    border: 1px solid #D7E4EE;
+    border-radius: 5px;
+   
+
+}
+.fris:hover , .second:hover , .three:hover{
+     box-shadow: 0px 8px 24px 0px #12233F14;
+     
+}
+.today span{
+   display: block;
+   padding-left: 4px ;
+}
+.today div span:nth-child(2){
+color:#5F6F85;
+font-size: 12px;
+}
+.today div span:nth-child(3){
+color:#12233F;
+font-size: 16px;
+}
+.head-title{
+    font-size: 10px;
+    color:#176BCE;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.subtitle{
+    font-size: 16px;
+    color:#12233F;
+    margin: 4px 0px;
+}
+.Forecast{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 8px 24px 0px #12233F14;
+    border-radius: 4px;
+}
+.Forecast div{
+    margin: 10px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+}
+.oth p:nth-child(1){
+    color: #12233F;
+    font-size: 10px;
+    
+}
+.Forecast div:nth-of-type(1){
+    background-color: #176BCE;
+    color:white;
+}
+.Forecast p:nth-of-type(1){
+    font-size: 10px;
+}
+.Forecast p:nth-child(3){
+    font-weight: bold;
+    font-size: 10px;
+}
+.This-week{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+     column-gap: 16px;
+     
+
+}
+.This-week div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    background-color: white;
+  box-shadow: 0px 8px 24px 0px #12233F14;
+    width: 300px;
+    height: 123px;
+
+}
+.This-week p:nth-of-type(1){
+    color: #12233F;
+    font-size: 12px;
+}
+.This-week p:nth-of-type(3){
+    color:#5F6F85;
+    font-size: 10px;
+}
+footer{
+background-color: #12233F;
+color: white;
+padding: 20px;
+}
+footer p{
+    font-weight: bold;
+}
+.foot{
+ display: flex;
+ justify-content: space-between;
+}
+.foot span{
+    color: #BEC9D8;
+    margin-top: 12px;
+    font-size: 10px;
+}
